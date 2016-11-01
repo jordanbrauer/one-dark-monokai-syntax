@@ -1,0 +1,37 @@
+// Global vars
+@syntax-hue: 220;
+
+// General colors
+@syntax-text-color:       hsl(@syntax-hue, 14% , 71% );
+@syntax-cursor-color:     hsl(@syntax-hue, 100%, 66% );
+@syntax-background-color: hsl(@syntax-hue, 13% , 18% );
+@syntax-selection-color:  lighten(@syntax-background-color, 10%);
+
+// Guide colors
+@syntax-wrap-guide-color:          fade(@syntax-text-color, 15%);
+@syntax-indent-guide-color:        fade(@syntax-text-color, 15%);
+@syntax-invisible-character-color: fade(@syntax-text-color, 15%);
+
+// For find and replace markers
+@syntax-result-marker-color:          fade(@syntax-text-color, 24%);
+@syntax-result-marker-color-selected: @syntax-cursor-color;
+
+// Gutter colors
+@syntax-gutter-text-color:                darken(@syntax-text-color, 26%);
+@syntax-gutter-text-color-selected:       @syntax-text-color;
+@syntax-gutter-background-color:          @syntax-background-color; // unused
+@syntax-gutter-background-color-selected: lighten(@syntax-background-color, 2%);
+
+// For git diff info. i.e. in the gutter
+@syntax-color-renamed:  hsl(208, 100%, 60%);
+@syntax-color-added:    hsl(150,  60%, 54%);
+@syntax-color-modified: hsl(40,   60%, 70%);
+@syntax-color-removed:  hsl(0,    70%, 60%);
+
+// For language entity colors
+@syntax-cyan:   hsl(195, 65%, 59%);
+@syntax-purple: hsl(270, 60%, 67%);
+@syntax-green:  hsl(105, 40%, 60%);
+@syntax-pink:   hsl(355, 78%, 65%);
+@syntax-yellow: hsl( 55, 45%, 65%);
+@syntax-orange: hsl( 28, 60%, 60%);

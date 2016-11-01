@@ -1,0 +1,23 @@
+{
+  "name": "one-dark-monokai-syntax",
+  "theme": "syntax",
+  "version": "1.0.0",
+  "description": "A port of the Monokai syntax theme for the Atom editor.",
+  "keywords": [
+    "syntax",
+    "theme",
+    "monokai",
+    "one",
+    "dark",
+    "onedark",
+    "sublime",
+    "daniel",
+    "dark",
+    "blue"
+  ],
+  "repository": "https://github.com/danielneubert/one-dark-monokai-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

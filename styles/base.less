@@ -1,0 +1,192 @@
+@import "syntax-variables";
+
+atom-text-editor, :host {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+atom-text-editor .gutter, :host .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+atom-text-editor .gutter .line-number.cursor-line, :host .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .gutter .line-number.cursor-line-no-selection, :host .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .wrap-guide, :host .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+atom-text-editor .indent-guide, :host .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+atom-text-editor .invisible-character, :host .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+atom-text-editor .search-results .marker .region, :host .search-results .marker .region {
+  background-color: transparent;
+  border: @syntax-result-marker-color;
+}
+
+atom-text-editor .search-results .marker.current-result .region, :host .search-results .marker.current-result .region {
+  border: @syntax-result-marker-color-selected;
+}
+
+atom-text-editor.is-focused .cursor, :host(.is-focused) .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line, :host(.is-focused) .line-number.cursor-line-no-selection, :host(.is-focused) .line.cursor-line {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.comment {
+  color: @syntax-gutter-text-color;
+}
+
+.string {
+  color: @syntax-yellow;
+}
+
+.constant.numeric {
+  color: @syntax-purple;
+}
+
+.constant.language {
+  font-style: italic;
+  color: @syntax-purple;
+}
+
+.constant.character, .constant.other {
+  color: @syntax-purple;
+}
+
+.variable {
+}
+
+.keyword {
+  color: @syntax-pink;
+}
+
+.storage {
+  color: @syntax-pink;
+}
+
+.storage.type {
+  font-style: italic;
+  color: @syntax-cyan;
+}
+
+.entity.name.class {
+  text-decoration: underline;
+  color: @syntax-green;
+}
+
+.entity.other.inherited-class {
+  font-style: italic;
+  text-decoration: underline;
+  color: @syntax-green;
+}
+
+.entity.name.function {
+  color: @syntax-green;
+}
+
+.variable.parameter {
+  font-style: italic;
+  color: @syntax-orange;
+}
+
+.entity.name.tag {
+  color: @syntax-pink;
+}
+
+.entity.other.attribute-name {
+  color: @syntax-green;
+}
+
+.support.function {
+  color: @syntax-cyan;
+}
+
+.support.constant {
+  color: @syntax-cyan;
+}
+
+.support.type, .support.class {
+  font-style: italic;
+  color: @syntax-cyan;
+}
+
+.support.other.variable {
+}
+
+.invalid {
+  color: @syntax-text-color;
+  background-color: @syntax-pink;
+}
+
+.invalid.deprecated {
+  color: @syntax-text-color;
+  background-color: @syntax-pink;
+}
+
+.meta.structure.dictionary.json .string.quoted.double.json {
+  color: @syntax-green;
+}
+
+.meta.diff, .meta.diff.header {
+  color: @syntax-gutter-text-color;
+}
+
+.markup.deleted {
+  color: @syntax-pink;
+}
+
+.markup.inserted {
+  color: @syntax-green;
+}
+
+.markup.changed {
+  color: @syntax-yellow;
+}
+
+.markup.deleted.git_gutter {
+  color: @syntax-pink;
+}
+
+.markup.inserted.git_gutter {
+  color: @syntax-green;
+}
+
+.markup.changed.git_gutter {
+  color: @syntax-yellow;
+}
+
+.markup.ignored.git_gutter {
+  color: @syntax-gutter-text-color;
+}
+
+.markup.untracked.git_gutter {
+  color: @syntax-gutter-text-color;
+}
+
+.constant.numeric.line-number.find-in-files:not(.match) {
+  color: @syntax-purple;
+}
+
+.entity.name.filename.find-in-files {
+  color: @syntax-yellow;
+}
