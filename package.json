@@ -1,7 +1,7 @@
 {
   "name": "one-dark-monokai-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A port of the Monokai syntax theme for the Atom editor.",
   "keywords": [
     "syntax",
