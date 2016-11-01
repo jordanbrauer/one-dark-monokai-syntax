@@ -4,19 +4,19 @@
 
 JavaScript:
 
-![one-dark-monokai-syntax-js](https://raw.githubusercontent.com/danielneubert/one-dark-monokai-syntax/master/screenshots/javascript.png?raw=true "JavaScript")
+![one-dark-monokai-syntax-js](https://raw.githubusercontent.com/danielneubert/one-dark-monokai-syntax/master/screenshots/javascript.png)
 
 PHP:
 
-![one-dark-monokai-syntax-php](https://raw.githubusercontent.com/danielneubert/one-dark-monokai-syntax/master/screenshots/php.png?raw=true "PHP")
+![one-dark-monokai-syntax-php](https://raw.githubusercontent.com/danielneubert/one-dark-monokai-syntax/master/screenshots/php.png)
 
 Python:
 
-![one-dark-monokai-syntax-py](https://raw.githubusercontent.com/danielneubert/one-dark-monokai-syntax/master/screenshots/python.png?raw=true "Python")
+![one-dark-monokai-syntax-py](https://raw.githubusercontent.com/danielneubert/one-dark-monokai-syntax/master/screenshots/python.png)
 
 Ruby:
 
-![one-dark-monokai-syntax-rb](https://raw.githubusercontent.com/danielneubert/one-dark-monokai-syntax/master/screenshots/ruby.png?raw=true "Ruby")
+![one-dark-monokai-syntax-rb](https://raw.githubusercontent.com/danielneubert/one-dark-monokai-syntax/master/screenshots/ruby.png)
 
 > The font used in the screenshots is [Fira Code](https://github.com/tonsky/FiraCode).
 
